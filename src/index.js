@@ -5,16 +5,19 @@ import Hello from "./Hello"
 import Footer from "./Footer"
 import About from "./About"
 import Projects from "./Projects"
+import ContactForm from "./ContactForm"
 import { Switch, Route, BrowserRouter } from "react-router-dom"
 
 const App = () => {
     return (
         <>
             <Header />
-            <Switch />
+            <Switch>
                 <Route exact path="/" component={Hello}></Route>
                 <Route exact path="/about" component={About}></Route>
                 <Route exact path="/projects" component={Projects}></Route>
+            </Switch>
+            <ContactForm />
             <Footer />
         </>
     )
