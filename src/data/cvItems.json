@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Craft Academy",
+        "image": "./src/data/caLogo.png",
+        "description": "12 week Full Stack Developer Bootcamp."
+    },
+
+    {
+        "id": 2,
+        "name": "Mark & Grund AB",
+        "image": "https://static.hitta.se/static/products/images/InfoText/markgrund2_il.gif",
+        "description": "Apprentice carpenter at a groundworks company."
+    },
+
+    {
+        "id": 3,
+        "name": "Umeå municipality",
+        "image":"https://www.umea.se/images/18.65771eb14bfe25fed24fb7/1426145556025/logotyp2015.png",
+        "description": "Home care service."
+    }
+]

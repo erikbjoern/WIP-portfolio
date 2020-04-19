@@ -8,7 +8,6 @@ class Projects extends Component {
         projects: []
     }
     
-    
     render() { 
         const projects = this.state.projects
         let projectsList
@@ -27,16 +26,15 @@ class Projects extends Component {
             <div className="ui main container">
                 <div className="ui stackable two column grid">
                     <div className="column">
-                        debugger
-                        <UndrawDashboard primaryColor='#12283a' height='200px'/>
-                    </div>
-                    <div className="column">
                         <h1 id="projects-header" className="ui header">My Projects</h1>
                         <p>    
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia quod
                             ab doloremque eaque. Consequatur temporibus, quos enim, eaque nemo ad
                             iusto sequi modi totam qui veniam? Ab asperiores inventore distinctio.
                         </p>
+                    </div>
+                    <div className="column">
+                        <UndrawDashboard primaryColor='#12283a' height='200px'/>
                     </div>
                 </div>
 
