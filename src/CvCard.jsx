@@ -5,7 +5,9 @@ const CvCard = ({cvItem}) => {
         <div  className="ui segment" style={{height: '100%'}}>
             <div style={{height: '150px', display: 'flex', alignItems: 'center'}}>
                 <div className="ui medium image">
-                        <img src={cvItem.image}></img>
+                        <a href={cvItem.link}>
+                            <img id="image-link" src={cvItem.image}></img>
+                        </a>
                 </div>
             </div>
             <div className="content">

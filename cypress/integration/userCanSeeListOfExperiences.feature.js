@@ -1,16 +1,15 @@
 describe('User can see a list of education and work experience', () => {
-    beforeEach(() => {
+beforeEach(() => {
         cy.visit('http://localhost:3000/cv')
+    })
+    
+    it('displays heading "Education"', () => {
+        cy.get('#education-header').should('contain', 'Education')
     })
 
     it('displays heading "Work experience"', () => {
         cy.get('#work-header').should('contain', 'Work experience')
     })
-
-    it('displays heading "Education"', () => {
-        cy.get('#education-header').should('contain', 'Education')
-    })
-
 
     describe('displays first item, containing', () => {
         it('header', () => {
@@ -80,6 +79,36 @@ describe('User can see a list of education and work experience', () => {
         it('description', () => {
             cy.get('#cvItem-4').within(() => {
                 cy.get('.description').should('contain', 'Home care service.')
+            })
+        })
+    })
+
+    describe('CV card images links to respective homepage', () => {
+        it('first item links to Craft Academy', () => {
+            cy.get('#cvItem-1').within(() => {
+                cy.get('#image-link').click()
+                cy.url().should('contain', 'craftacademy')
+            })
+        })
+
+        it('second item links to Åkrahällskolan', () => {
+            cy.get('#cvItem-2').within(() => {
+                cy.get('#image-link').click()
+                cy.url().should('contain', 'akrahall')
+            })
+        })
+        
+        it('third item links to Mark & Grund', () => {
+            cy.get('#cvItem-3').within(() => {
+                cy.get('#image-link').click()
+                cy.url().should('contain', 'markogrund')
+            })
+        })
+
+        it('fourth item links to Umeå kommun - Din kommunala hemtjänst', () => {
+            cy.get('#cvItem-4').within(() => {
+                cy.get('#image-link').click()
+                cy.url().should('contain', 'umea')
             })
         })
     })
