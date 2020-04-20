@@ -24,8 +24,8 @@ describe('User can navigate the app', () => {
             cy.get('#hello').should('not.exist')
         })
 
-        it('does not display CV header', () => {
-            cy.get('#cv-header').should('not.exist')
+        it('does not display Education header', () => {
+            cy.get('#education-header').should('not.exist')
         })
     })
     
@@ -50,8 +50,8 @@ describe('User can navigate the app', () => {
             cy.get('#hello').should('not.exist')
         })
 
-        it('does not display CV header', () => {
-            cy.get('#cv-header').should('not.exist')
+        it('does not display Education header', () => {
+            cy.get('#education-header').should('not.exist')
         })
     })
     
@@ -60,8 +60,12 @@ describe('User can navigate the app', () => {
             cy.get('#cv-tab').click()
         })
         
-        it('displays CV header', () => {
-            cy.get('#cv-header').should('contain', 'CV')
+        it('displays education header', () => {
+            cy.get('#education-header').should('contain', 'Education')
+        })
+
+        it('displays work experience header', () => {
+            cy.get('#work-header').should('contain', 'Work experience')
         })
         
         it('displays component name in URL', () => {
@@ -104,8 +108,8 @@ describe('User can navigate the app', () => {
             cy.get('#projects-header').should('not.exist')
         })
         
-        it('does not display CV header', () => {
-            cy.get('#cv-header').should('not.exist')
+        it('does not display Education header', () => {
+            cy.get('#education-header').should('not.exist')
         })
     })
 })

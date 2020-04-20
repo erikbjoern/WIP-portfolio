@@ -29,5 +29,13 @@
         "link": "https://www.umea.se/umeakommun/omsorgochhjalp/hjalpihemmet/hemtjansthemhjalp/valjutforareavhemtjanst/dinkommunalahemtjanst.4.3c6cfe2710af5588bc780001763.html",
         "image":"https://www.umea.se/images/18.65771eb14bfe25fed24fb7/1426145556025/logotyp2015.png",
         "description": "Home care service."
+    },
+
+    {
+        "id": 5,
+        "name": "Gjennestad VGS",
+        "link": "https://www.gjennestadvgs.no/",
+        "image":"https://www.gjennestadvgs.no/wp-content/themes/gjennestad/library/images/gjennestad_skole_logo.svg",
+        "description": "Social/youth worker at a boarding school."
     }
 ]

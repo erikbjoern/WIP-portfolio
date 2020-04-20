@@ -82,6 +82,24 @@ beforeEach(() => {
             })
         })
     })
+    
+    describe('displays fifth item, containing', () => {
+        it('header', () => {
+            cy.get('#cvItem-5').within(() => {
+                cy.get('.ui.header').should('contain', 'Gjennestad VGS')
+            })
+        })
+        it('image', () => {
+            cy.get('#cvItem-5').within(() => {
+                cy.get('.image').should('exist')
+            })
+        })
+        it('description', () => {
+            cy.get('#cvItem-5').within(() => {
+                cy.get('.description').should('contain', 'Social/youth worker at a boarding school.')
+            })
+        })
+    })
 
     describe('CV card images links to respective homepage', () => {
         it('first item links to Craft Academy', () => {
@@ -109,6 +127,13 @@ beforeEach(() => {
             cy.get('#cvItem-4').within(() => {
                 cy.get('#image-link').click()
                 cy.url().should('contain', 'umea')
+            })
+        })
+
+        it('fifth item links to Gjennestad VGS', () => {
+            cy.get('#cvItem-5').within(() => {
+                cy.get('#image-link').click()
+                cy.url().should('contain', 'gjennestad')
             })
         })
     })

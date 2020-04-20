@@ -21,7 +21,7 @@ class CV extends Component {
                     </div>
                 )
             })
-            workItemsList = cvItems.slice(2,4).map(cvItem => {
+            workItemsList = cvItems.slice(2,5).map(cvItem => {
                 return(
                     <div className="ui card" id={`cvItem-${cvItem.id}`} key={cvItem.id}>
                         <CvCard cvItem={cvItem} />
@@ -31,23 +31,20 @@ class CV extends Component {
         }
 
         return(
-                <div className="ui main container">
-                    <div id="cv-header" className="ui header" style={{fontSize: "400%", padding: "50px"}}>
-                        CV
-                    </div>
+            <div className="ui main container">
                     <div className="ui stackable grid">
-                        <div className="seven wide column">
-                            <div id="education-header" className="ui header" style={{fontSize: "200%", padding: "50px"}}>
+                        <div className="eight wide column">
+                            <div id="education-header" className="ui header" style={{fontSize: "200%", padding: "20px"}}>
                                 Education
                             </div>
                             <div className="ui stackable two column grid cards">{educationItemsList}</div>
                         </div>
                         <div className="two wide column"></div>
-                        <div className="seven wide column">
-                            <div id="work-header" className="ui header" style={{fontSize: "200%", padding: "50px"}}>
+                        <div className="twelve wide column">
+                            <div id="work-header" className="ui header" style={{fontSize: "200%", padding: "20px"}}>
                                 Work experience
                             </div>
-                            <div className="ui stackable two column grid cards">{workItemsList}</div>
+                            <div className="ui stackable three column grid cards">{workItemsList}</div>
                         </div>    
                     </div>
                 </div>
