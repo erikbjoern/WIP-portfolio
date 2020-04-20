@@ -31,7 +31,7 @@ class CV extends Component {
         }
 
         return(
-            <div className="ui main container">
+            <div className="ui main container" style={{paddingBottom: "100px"}}>
                     <div className="ui stackable grid">
                         <div className="eight wide column">
                             <div id="education-header" className="ui header" style={{fontSize: "200%", padding: "20px"}}>
