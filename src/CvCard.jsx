@@ -2,7 +2,7 @@ import React from 'react'
 
 const CvCard = ({cvItem}) => {
     return (
-        <div  className="ui segment" style={{height: '100%'}}>
+        <div className="ui segment" style={{height: '100%'}}>
             <div style={{height: '150px', display: 'flex', alignItems: 'center'}}>
                 <div className="ui medium image">
                         <a href={cvItem.link}>
