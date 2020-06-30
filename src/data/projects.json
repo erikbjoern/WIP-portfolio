@@ -1,20 +1,26 @@
 [
     {
       "id": 1,
-      "name": "My First Website",
-      "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-      "description": "This was my first project."
+      "name": "Rock paper scissors!",
+      "image": ".src/data/RPS.png",
+      "description": "A simple two-player RPS game"
     },
     {
       "id": 2,
-      "name": "UI Design",
-      "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-      "description": "Designing user interface is fun."
+      "name": "reQuest",
+      "image": ".src/data/reQuest.png",
+      "description": "What you give is what you get - an app for requesting and giving help"
     },
     {
       "id": 3,
-      "name": "Mobile UX",
-      "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-      "description": "I like to design for the mobile platform."
+      "name": "Daily News Sense - user client",
+      "image": ".src/data/DNSclient",
+      "description": "A news platform for local and international news"
+    },
+    {
+      "id": 4,
+      "name": "Daily News Sense - staff client",
+      "image": ".src/data/DNSstaff",
+      "description": "The staff site for creating, reviewing and publishing news to Daily News Sense"
     }
 ]
