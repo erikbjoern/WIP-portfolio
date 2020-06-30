@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "name": "Rock paper scissors!",
+      "name": "Rock Paper Scissors!",
       "image": "./src/data/RPS.png",
       "description": "A simple two-player RPS game"
     },
