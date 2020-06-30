@@ -2,25 +2,25 @@
     {
       "id": 1,
       "name": "Rock paper scissors!",
-      "image": ".src/data/RPS.png",
+      "image": "./src/data/RPS.png",
       "description": "A simple two-player RPS game"
     },
     {
       "id": 2,
       "name": "reQuest",
-      "image": ".src/data/reQuest.png",
+      "image": "./src/data/reQuest.png",
       "description": "What you give is what you get - an app for requesting and giving help"
     },
     {
       "id": 3,
       "name": "Daily News Sense - user client",
-      "image": ".src/data/DNSclient",
+      "image": "./src/data/DNSclient.png",
       "description": "A news platform for local and international news"
     },
     {
       "id": 4,
       "name": "Daily News Sense - staff client",
-      "image": ".src/data/DNSstaff",
+      "image": "./src/data/DNSstaff.png",
       "description": "The staff site for creating, reviewing and publishing news to Daily News Sense"
     }
 ]
