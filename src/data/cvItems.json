@@ -1,41 +1,37 @@
 [
-    {
-        "id": 1,
-        "name": "Craft Academy",
-        "link": "https://www.craftacademy.se/curriculum/",
-        "image": "./src/data/caLogo.png",
-        "description": "12 week Full Stack Developer Bootcamp."
-    },
-
-    {
-        "id": 2,
-        "name": "Technology programme",
-        "link": "https://akrahall.nybro.se/gymnasieutbildningar/teknikprogrammet-te/om-teknikprogrammet/",
-        "image": "https://static.hitta.se/static/products/images/InfoText/akrahall2.il.gif",
-        "description": "With specialisation in design and product development."
-    },
-
-    {
-        "id": 3,
-        "name": "Mark & Grund AB",
-        "link": "http://markogrund.se/",
-        "image": "https://static.hitta.se/static/products/images/InfoText/markgrund2_il.gif",
-        "description": "Apprentice carpenter at a groundworks company."
-    },
-
-    {
-        "id": 4,
-        "name": "Umeå municipality",
-        "link": "https://www.umea.se/umeakommun/omsorgochhjalp/hjalpihemmet/hemtjansthemhjalp/valjutforareavhemtjanst/dinkommunalahemtjanst.4.3c6cfe2710af5588bc780001763.html",
-        "image":"https://www.umea.se/images/18.65771eb14bfe25fed24fb7/1426145556025/logotyp2015.png",
-        "description": "Home care service."
-    },
-
-    {
-        "id": 5,
-        "name": "Gjennestad VGS",
-        "link": "https://www.gjennestadvgs.no/",
-        "image":"https://www.gjennestadvgs.no/wp-content/themes/gjennestad/library/images/gjennestad_skole_logo.svg",
-        "description": "Social/youth worker at a boarding school."
-    }
+  {
+    "id": 1,
+    "name": "Craft Academy",
+    "link": "https://www.craftacademy.se/curriculum/",
+    "image": "./src/data/caLogo.png",
+    "description": "12 week Full Stack Developer Bootcamp."
+  },
+  {
+    "id": 2,
+    "name": "Technology programme",
+    "link": "https://akrahall.nybro.se/gymnasieutbildningar/teknikprogrammet-te/om-teknikprogrammet/",
+    "image": "https://static.hitta.se/static/products/images/InfoText/akrahall2.il.gif",
+    "description": "With specialisation in design and product development."
+  },
+  {
+    "id": 3,
+    "name": "Mark & Grund AB",
+    "link": "http://markogrund.se/",
+    "image": "https://static.hitta.se/static/products/images/InfoText/markgrund2_il.gif",
+    "description": "Apprentice carpenter at a groundworks company."
+  },
+  {
+    "id": 4,
+    "name": "Umeå municipality",
+    "link": "https://www.umea.se/umeakommun/omsorgochhjalp/hjalpihemmet/hemtjansthemhjalp/valjutforareavhemtjanst/dinkommunalahemtjanst.4.3c6cfe2710af5588bc780001763.html",
+    "image": "https://www.umea.se/images/18.65771eb14bfe25fed24fb7/1426145556025/logotyp2015.png",
+    "description": "Home care service."
+  },
+  {
+    "id": 5,
+    "name": "Gjennestad VGS",
+    "link": "https://www.gjennestadvgs.no/",
+    "image": "https://www.gjennestadvgs.no/wp-content/themes/gjennestad/library/images/gjennestad_skole_logo.svg",
+    "description": "Social/youth worker at a boarding school."
+  }
 ]

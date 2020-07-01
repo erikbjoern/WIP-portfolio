@@ -1,13 +1,13 @@
-import React from "react"
+import React from "react";
 
 const Footer = () => {
-    return (
-        <footer style={{position: "fixed", bottom: "0"}}>
-            <div className="ui container" >
-                <p id="footer">Made with React {React.version}</p>
-            </div>
-        </footer>
-    )
-}
+  return (
+    <footer style={{ position: "fixed", bottom: "0" }}>
+      <div className="ui container">
+        <p id="footer">Made with React {React.version}</p>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
